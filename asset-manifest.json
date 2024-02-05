@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sm-portfolio/static/css/main.0189252a.css",
+    "main.js": "/sm-portfolio/static/js/main.1ca63c2c.js",
+    "static/media/Swapnil_Manale_Resume.pdf": "/sm-portfolio/static/media/Swapnil_Manale_Resume.ca9eaae7c9b22268872b.pdf",
+    "static/media/about_image.jpg": "/sm-portfolio/static/media/about_image.26a90da89251f0518e19.jpg",
+    "static/media/logosm.png": "/sm-portfolio/static/media/logosm.08c6f58428647fb79f5f.png",
+    "static/media/abs_bg_dark.jpg": "/sm-portfolio/static/media/abs_bg_dark.0453ce7684b931c7e6bd.jpg",
+    "index.html": "/sm-portfolio/index.html",
+    "main.0189252a.css.map": "/sm-portfolio/static/css/main.0189252a.css.map",
+    "main.1ca63c2c.js.map": "/sm-portfolio/static/js/main.1ca63c2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0189252a.css",
+    "static/js/main.1ca63c2c.js"
+  ]
+}
