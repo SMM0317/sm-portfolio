@@ -1,0 +1,74 @@
+#skills {
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skillText {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lineAnime {
+  height: 2px;
+  background-color: #FFD700; 
+  animation: skillLine 2s infinite; 
+}
+
+@keyframes skillLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+.skillCol {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.skillBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 8px;
+    background: #272626;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.3s;
+  }  
+
+  .skillBox:hover {
+    background: #d3c713;
+    transform: scale(1.1);
+  }
+
+.skillBox img {
+   width: 5rem;
+   height: auto;
+   object-fit: contain;
+  }
+  
+  .skillName {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+@media screen and (max-width: 400px) {
+  .skillText {
+    font-size: 1.5rem;
+}
+  
+}
