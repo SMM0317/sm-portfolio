@@ -1,0 +1,135 @@
+#intro {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introContent {
+    display: flex;
+    flex-direction: column;
+    width: 33rem;
+}
+
+.hello {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.introText {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.introName {
+    color: #FFD700;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.introbtn {
+    width: 10rem;
+    background-color: #FFD700;
+    margin-top: 1rem;
+    color: black;
+}
+
+.introbtn:hover {
+    background-color: #e3ccf5 !important; 
+    color: blue !important;
+  }
+
+.introImage {
+    background: url(../../assets/images/abs_bg_dark.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    object-fit: cover;
+    width: 450px;
+    height: 550px;
+    box-shadow: inset 0 0 0 9px rgb(226, 241, 13);
+    order: 1;
+    justify-self: center;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile_animate {
+    0% {
+        border-radius: 60% 40% 40% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 40% 70%/60% 30% 70% 40%;
+    }
+}
+
+  @media screen and (max-width: 1140px) {
+    .introImage {
+        width: 300px;
+        height: 300px; 
+    }
+    .hello {
+        font-size: 1.5rem;
+    }
+    .introText {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+    .introImage {
+        width: 220px;
+        height: 220px; 
+    }
+    .hello {
+        font-size: 1rem;
+    }
+    .introText {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .introPara {
+        font-size: small;
+    }
+    .introContent {
+        width: 25rem;
+    }
+  }
+
+@media screen and (max-width: 740px) {
+    .introText {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    #intro {
+        padding: 3rem 4rem;
+    }
+    .introContent {
+        width: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    #intro {
+       flex-direction: column-reverse;
+       height: 100%;
+    }
+    .introContent {
+        width: 17rem;
+        margin-top: 1rem;
+        padding: 1rem 0.7rem;
+    }
+  }
