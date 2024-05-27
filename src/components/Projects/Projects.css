@@ -117,7 +117,7 @@
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	font-weight: 700;
 }
 
@@ -156,6 +156,17 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: auto;
 	}
+
+	.all-projects-project {
+		width: calc(100% / 1);
+		box-sizing: border-box;
+		padding: 10px;
+		overflow: hidden;
+	}
+
+	.project-container {
+    padding: 20px;
+}
 }

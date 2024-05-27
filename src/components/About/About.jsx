@@ -16,14 +16,7 @@ const About = () => {
       <div className='aboutContent'>
         <span className='aboutText'>About Me</span>
         <div className='lineAnimation'></div>
-        <p className='aboutPara'>Enthusiastic React.js Developer with a solid foundation in building
-         dynamic and interactive web applications. Proficient in creating
-          modern, user-centric interfaces and implementing functionality using
-           React and related technologies. Skilled in front-end development
-            with a strong grasp of HTML5, CSS3, and JavaScript ES6+. Quick learner
-             and team player, eager to contribute to collaborative projects and
-              grow in a dynamic development environment. Committed to staying
-               updated with the latest web development trends and best practices.
+        <p className='aboutPara'>Dynamic and results-oriented Developer with 2 years of extensive experience in Angular, React, React Native and supplemented by foundational knowledge in Node.js and MongoDB. Skilled in creating dynamic web and mobile applications and adept at bug fixing. Leading teams and enhancing performance, dedicated to building solutions that meet real-world needs.
          </p>
          <a href={resumePdf} download='resume'>
          <Button className='aboutbtn' type="primary" shape="round" icon={<DownloadOutlined />} size='large'>Download Resume</Button>
