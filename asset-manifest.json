@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/sm-portfolio/static/css/main.0189252a.css",
-    "main.js": "/sm-portfolio/static/js/main.1ca63c2c.js",
+    "main.css": "/sm-portfolio/static/css/main.2b80bf02.css",
+    "main.js": "/sm-portfolio/static/js/main.24b33128.js",
+    "static/media/swapnil_manale.png": "/sm-portfolio/static/media/swapnil_manale.243f1bc1258719a43b33.png",
+    "static/media/wordpress_logo.png": "/sm-portfolio/static/media/wordpress_logo.4cc9d2ec4814b0956ad9.png",
+    "static/media/css_logo.png": "/sm-portfolio/static/media/css_logo.f613ca025872c96b4c01.png",
     "static/media/Swapnil_Manale_Resume.pdf": "/sm-portfolio/static/media/Swapnil_Manale_Resume.ca9eaae7c9b22268872b.pdf",
+    "static/media/javascript_logo.png": "/sm-portfolio/static/media/javascript_logo.4b5319c1ee4c7073e492.png",
+    "static/media/html_logo.png": "/sm-portfolio/static/media/html_logo.7b2f4566c76e5cc6b913.png",
+    "static/media/nodejs_logo.png": "/sm-portfolio/static/media/nodejs_logo.dc27eb169effada63791.png",
+    "static/media/mongodb_logo.png": "/sm-portfolio/static/media/mongodb_logo.56b59b170d7b23e9c60b.png",
+    "static/media/redux_logo.png": "/sm-portfolio/static/media/redux_logo.ad2402328f20053d9bea.png",
+    "static/media/postman_logo.png": "/sm-portfolio/static/media/postman_logo.1e2321634393eb010e4a.png",
     "static/media/about_image.jpg": "/sm-portfolio/static/media/about_image.26a90da89251f0518e19.jpg",
+    "static/media/firebase_logo.png": "/sm-portfolio/static/media/firebase_logo.6cb0a764ea0920f77904.png",
+    "static/media/angular_logo.png": "/sm-portfolio/static/media/angular_logo.1cec1573027f18c13d28.png",
     "static/media/logosm.png": "/sm-portfolio/static/media/logosm.08c6f58428647fb79f5f.png",
-    "static/media/abs_bg_dark.jpg": "/sm-portfolio/static/media/abs_bg_dark.0453ce7684b931c7e6bd.jpg",
+    "static/media/tshirt.svg": "/sm-portfolio/static/media/tshirt.173097bd669b4520292190b620633a00.svg",
     "index.html": "/sm-portfolio/index.html",
-    "main.0189252a.css.map": "/sm-portfolio/static/css/main.0189252a.css.map",
-    "main.1ca63c2c.js.map": "/sm-portfolio/static/js/main.1ca63c2c.js.map"
+    "main.2b80bf02.css.map": "/sm-portfolio/static/css/main.2b80bf02.css.map",
+    "main.24b33128.js.map": "/sm-portfolio/static/js/main.24b33128.js.map"
   },
   "entrypoints": [
-    "static/css/main.0189252a.css",
-    "static/js/main.1ca63c2c.js"
+    "static/css/main.2b80bf02.css",
+    "static/js/main.24b33128.js"
   ]
 }
